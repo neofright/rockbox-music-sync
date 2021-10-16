@@ -92,7 +92,7 @@ printf '\nSearching for new FLAC files to transcode...'
 			## https://trac.ffmpeg.org/wiki/Encode/MP3
 			## http://wiki.hydrogenaud.io/index.php?title=LAME
 			## https://arstechnica.com/civis/viewtopic.php?t=1138392
-			lame_vbr_level=2
+			lame_vbr_level=0
 			echo ffmpeg -hide_banner -loglevel quiet -i \""$filename\"" -qscale:a $lame_vbr_level \""$dest_file_path\"" >> "$enc_script"
 		fi
 	done < <(find "$source_dir" -mindepth 1 -type f -iname "*.flac" -print0)
