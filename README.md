@@ -11,3 +11,5 @@ You will also need to provide the filesystem uuid in variable `$fs_uuid` from th
 Pay attention to `$mp3_dir` and `$flac_dir` as well as the destination paths in function `normal_run`
 
 I recommend thoroughly reading the script before attempting to adapt it to your use case as this repo is more of a dump than a maintained project.
+
+**EDIT: After discovering the fantastic [oggenc](https://github.com/spr/Oggify) by Scott Robertson I thoroughly recommend using this instead!!**
