@@ -170,10 +170,10 @@ printf '\nSyncing music to iPod...'
 	then
 		if [[ "$3" == "--delete" ]]
 		then
-			rsync -qavrm --safe-links --modify-window=2 --delete "$source_dir" "$dest_dir" --exclude-from="$excludes_file"
+			rsync -qrtm --safe-links --modify-window=2 --delete "$source_dir" "$dest_dir" --exclude-from="$excludes_file"
 		fi
 	else
-		rsync -qavrm --safe-links --modify-window=2 "$source_dir" "$dest_dir" --exclude-from="$excludes_file"
+		rsync -qrtm --safe-links --modify-window=2 "$source_dir" "$dest_dir" --exclude-from="$excludes_file"
 	fi
 printf 'OK\n'
 }
