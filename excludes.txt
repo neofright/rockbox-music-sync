@@ -1,0 +1,3 @@
+p *.jpg
+p *.JPG
+p *.png
