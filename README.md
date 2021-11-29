@@ -12,4 +12,4 @@ Pay attention to `$mp3_dir` and `$flac_dir` as well as the destination paths in 
 
 I recommend thoroughly reading the script before attempting to adapt it to your use case as this repo is more of a dump than a maintained project.
 
-**EDIT: After discovering the fantastic [oggenc](https://github.com/spr/Oggify) by Scott Robertson I thoroughly recommend using this instead!!**
+**EDIT: After discovering [transflac](https://github.com/neofright/transflac) by Gerald Cox I recommend using this instead. I have a gist that shows how it can be used similarly to this script [here](https://gist.github.com/neofright/a9d0abce03f9d0d643756478c9da9f0a).**
